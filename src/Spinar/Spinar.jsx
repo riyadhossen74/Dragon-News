@@ -2,8 +2,8 @@ import React from 'react';
 import { BallTriangle } from 'react-loader-spinner';
 
 const Spinar = () => {
-    return  <div>
-        render<BallTriangle
+    return  <div className='flex justify-center items-center min-h-screen'>
+        <BallTriangle
   height={100}
   width={100}
   radius={5}
